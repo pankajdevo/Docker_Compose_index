@@ -4,6 +4,9 @@ services:
   web:
     image: php:apache
     volumes:
-      - ./index.php:/var/www/html/index.php
+      - ./index.php:/home/ubuntu/Docker_Compose_index
+index.php
+      # - ./index.php:/var/www/html/index.php
     ports:
       - "8181:81"
+/
